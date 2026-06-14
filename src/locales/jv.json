@@ -1,0 +1,69 @@
+{
+  "auth": {
+    "login": {
+      "title": "Sugeng rawuh malih",
+      "subtitle": "Lebokake rincian panjenengan ing ngisor.",
+      "email": "Alamat email",
+      "password": "Tembung sandhi",
+      "forgotPassword": "Lali tembung sandhi?",
+      "submit": "Mlebu",
+      "noAccount": "Durung duwe akun?",
+      "register": "Daftar"
+    },
+    "register": {
+      "title": "Gawe akun panjenengan",
+      "subtitle": "Miwiti — mung butuh siji menit.",
+      "firstName": "Jeneng ngarep",
+      "lastName": "Jeneng mburi",
+      "email": "Alamat email",
+      "password": "Tembung sandhi",
+      "passwordHint": "Minimal 8 karakter",
+      "confirmPassword": "Konfirmasi tembung sandhi",
+      "submit": "Gawe akun",
+      "hasAccount": "Wis duwe akun?",
+      "login": "Mlebu",
+      "successTitle": "Priksa kothak mlebu panjenengan",
+      "successBody": "Kita wis ngirim tautan verifikasi menyang email panjenengan.",
+      "goToLogin": "Menyang kaca mlebu"
+    },
+    "forgotPassword": {
+      "title": "Lali tembung sandhi?",
+      "subtitle": "Lebokake email panjenengan lan kita bakal ngirim tautan reset.",
+      "email": "Alamat email",
+      "submit": "Kirim tautan reset",
+      "backToLogin": "← Bali menyang mlebu",
+      "successTitle": "Priksa kothak mlebu panjenengan",
+      "successBody": "Yen akun kanggo {email} ana, tautan reset wis dikirim.",
+      "resend": "Kirim ulang email"
+    },
+    "resetPassword": {
+      "title": "Atur tembung sandhi anyar",
+      "subtitle": "Minimal 8 karakter.",
+      "password": "Tembung sandhi anyar",
+      "confirmPassword": "Konfirmasi tembung sandhi anyar",
+      "submit": "Reset tembung sandhi",
+      "successMessage": "Tembung sandhi wis direset. Panjenengan saiki bisa mlebu.",
+      "expiredTitle": "Tautan reset iki wis kedaluwarsa.",
+      "expiredBody": "Jaluk tautan anyar.",
+      "requestNew": "Jaluk tautan anyar"
+    },
+    "verifyEmail": {
+      "verifying": "Verifikasi email panjenengan...",
+      "successMessage": "Email wis diverifikasi! Sugeng rawuh ing Stak.",
+      "expiredTitle": "Tautan iki wis kedaluwarsa.",
+      "expiredBody": "Jaluk email verifikasi anyar.",
+      "resend": "Kirim ulang email verifikasi"
+    },
+    "verificationBanner": {
+      "message": "Verifikasi alamat email panjenengan kanggo ngakses kabeh fitur.",
+      "resend": "Kirim ulang"
+    }
+  },
+  "errors": {
+    "invalidCredentials": "Email utawa tembung sandhi ora valid.",
+    "tooManyRequests": "Akeh banget percobaan. Coba maneh mengko.",
+    "serverError": "Ana kesalahan. Mangga coba maneh.",
+    "forbidden": "Panjenengan ora duwe idin kanggo nindakake iku.",
+    "emailTaken": "Akun kanthi email iki wis ana."
+  }
+}
