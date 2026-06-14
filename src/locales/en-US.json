@@ -1,0 +1,69 @@
+{
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Enter your details below.",
+      "email": "Email address",
+      "password": "Password",
+      "forgotPassword": "Forgot password?",
+      "submit": "Log in",
+      "noAccount": "Don't have an account?",
+      "register": "Register"
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Get started — it only takes a minute.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email address",
+      "password": "Password",
+      "passwordHint": "At least 8 characters",
+      "confirmPassword": "Confirm password",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "login": "Log in",
+      "successTitle": "Check your inbox",
+      "successBody": "We've sent a verification link to your email. You can log in now — some features require a verified address.",
+      "goToLogin": "Go to login"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "subtitle": "Enter your email and we'll send you a reset link.",
+      "email": "Email address",
+      "submit": "Send reset link",
+      "backToLogin": "← Back to login",
+      "successTitle": "Check your inbox",
+      "successBody": "If an account exists for {email}, a reset link has been sent.",
+      "resend": "Resend email"
+    },
+    "resetPassword": {
+      "title": "Set a new password",
+      "subtitle": "Must be at least 8 characters.",
+      "password": "New password",
+      "confirmPassword": "Confirm new password",
+      "submit": "Reset password",
+      "successMessage": "Password reset. You can now log in.",
+      "expiredTitle": "This reset link has expired.",
+      "expiredBody": "Request a new one.",
+      "requestNew": "Request new link"
+    },
+    "verifyEmail": {
+      "verifying": "Verifying your email...",
+      "successMessage": "Email verified! Welcome to Stak.",
+      "expiredTitle": "This link has expired.",
+      "expiredBody": "Request a new verification email.",
+      "resend": "Resend verification email"
+    },
+    "verificationBanner": {
+      "message": "Please verify your email address to access all features.",
+      "resend": "Resend"
+    }
+  },
+  "errors": {
+    "invalidCredentials": "Invalid email or password.",
+    "tooManyRequests": "Too many attempts. Try again later.",
+    "serverError": "Something went wrong. Please try again.",
+    "forbidden": "You don't have permission to do that.",
+    "emailTaken": "An account with this email already exists."
+  }
+}

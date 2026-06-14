@@ -1,0 +1,69 @@
+{
+  "auth": {
+    "login": {
+      "title": "Welkom terug",
+      "subtitle": "Vul je gegevens in.",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "submit": "Inloggen",
+      "noAccount": "Nog geen account?",
+      "register": "Registreren"
+    },
+    "register": {
+      "title": "Account aanmaken",
+      "subtitle": "Begin — het duurt maar een minuut.",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "passwordHint": "Minimaal 8 tekens",
+      "confirmPassword": "Wachtwoord bevestigen",
+      "submit": "Account aanmaken",
+      "hasAccount": "Al een account?",
+      "login": "Inloggen",
+      "successTitle": "Controleer je inbox",
+      "successBody": "We hebben een verificatielink naar je e-mail gestuurd.",
+      "goToLogin": "Naar inloggen"
+    },
+    "forgotPassword": {
+      "title": "Wachtwoord vergeten?",
+      "subtitle": "Voer je e-mailadres in en we sturen een resetlink.",
+      "email": "E-mailadres",
+      "submit": "Resetlink sturen",
+      "backToLogin": "← Terug naar inloggen",
+      "successTitle": "Controleer je inbox",
+      "successBody": "Als er een account bestaat voor {email}, is er een resetlink verstuurd.",
+      "resend": "Opnieuw versturen"
+    },
+    "resetPassword": {
+      "title": "Nieuw wachtwoord instellen",
+      "subtitle": "Minimaal 8 tekens.",
+      "password": "Nieuw wachtwoord",
+      "confirmPassword": "Wachtwoord bevestigen",
+      "submit": "Wachtwoord resetten",
+      "successMessage": "Wachtwoord gereset. Je kunt nu inloggen.",
+      "expiredTitle": "Deze resetlink is verlopen.",
+      "expiredBody": "Vraag een nieuwe aan.",
+      "requestNew": "Nieuwe link aanvragen"
+    },
+    "verifyEmail": {
+      "verifying": "E-mail verifiëren...",
+      "successMessage": "E-mail geverifieerd! Welkom bij Stak.",
+      "expiredTitle": "Deze link is verlopen.",
+      "expiredBody": "Vraag een nieuwe verificatiemail aan.",
+      "resend": "Verificatiemail opnieuw versturen"
+    },
+    "verificationBanner": {
+      "message": "Verifieer je e-mailadres om alle functies te gebruiken.",
+      "resend": "Opnieuw versturen"
+    }
+  },
+  "errors": {
+    "invalidCredentials": "Ongeldig e-mailadres of wachtwoord.",
+    "tooManyRequests": "Te veel pogingen. Probeer het later opnieuw.",
+    "serverError": "Er is iets misgegaan. Probeer het opnieuw.",
+    "forbidden": "Je hebt geen toestemming.",
+    "emailTaken": "Er bestaat al een account met dit e-mailadres."
+  }
+}

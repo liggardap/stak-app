@@ -1,0 +1,69 @@
+{
+  "auth": {
+    "login": {
+      "title": "Selamat datang kembali",
+      "subtitle": "Masukkan detail Anda di bawah.",
+      "email": "Alamat email",
+      "password": "Kata sandi",
+      "forgotPassword": "Lupa kata sandi?",
+      "submit": "Masuk",
+      "noAccount": "Belum punya akun?",
+      "register": "Daftar"
+    },
+    "register": {
+      "title": "Buat akun Anda",
+      "subtitle": "Mulai — hanya butuh satu menit.",
+      "firstName": "Nama depan",
+      "lastName": "Nama belakang",
+      "email": "Alamat email",
+      "password": "Kata sandi",
+      "passwordHint": "Minimal 8 karakter",
+      "confirmPassword": "Konfirmasi kata sandi",
+      "submit": "Buat akun",
+      "hasAccount": "Sudah punya akun?",
+      "login": "Masuk",
+      "successTitle": "Periksa kotak masuk Anda",
+      "successBody": "Kami telah mengirim tautan verifikasi ke email Anda.",
+      "goToLogin": "Ke halaman masuk"
+    },
+    "forgotPassword": {
+      "title": "Lupa kata sandi?",
+      "subtitle": "Masukkan email Anda dan kami akan mengirim tautan reset.",
+      "email": "Alamat email",
+      "submit": "Kirim tautan reset",
+      "backToLogin": "← Kembali ke masuk",
+      "successTitle": "Periksa kotak masuk Anda",
+      "successBody": "Jika akun untuk {email} ada, tautan reset telah dikirim.",
+      "resend": "Kirim ulang email"
+    },
+    "resetPassword": {
+      "title": "Atur kata sandi baru",
+      "subtitle": "Minimal 8 karakter.",
+      "password": "Kata sandi baru",
+      "confirmPassword": "Konfirmasi kata sandi baru",
+      "submit": "Reset kata sandi",
+      "successMessage": "Kata sandi berhasil direset. Anda sekarang dapat masuk.",
+      "expiredTitle": "Tautan reset ini sudah kedaluwarsa.",
+      "expiredBody": "Minta tautan baru.",
+      "requestNew": "Minta tautan baru"
+    },
+    "verifyEmail": {
+      "verifying": "Memverifikasi email Anda...",
+      "successMessage": "Email terverifikasi! Selamat datang di Stak.",
+      "expiredTitle": "Tautan ini sudah kedaluwarsa.",
+      "expiredBody": "Minta email verifikasi baru.",
+      "resend": "Kirim ulang email verifikasi"
+    },
+    "verificationBanner": {
+      "message": "Verifikasi alamat email Anda untuk mengakses semua fitur.",
+      "resend": "Kirim ulang"
+    }
+  },
+  "errors": {
+    "invalidCredentials": "Email atau kata sandi tidak valid.",
+    "tooManyRequests": "Terlalu banyak percobaan. Coba lagi nanti.",
+    "serverError": "Terjadi kesalahan. Silakan coba lagi.",
+    "forbidden": "Anda tidak memiliki izin untuk melakukan itu.",
+    "emailTaken": "Akun dengan email ini sudah ada."
+  }
+}

@@ -9,4 +9,5 @@ export interface UserResource {
   avatarColor: string
   avatarUrl: string | null
   avatarThumbUrl: string | null
+  emailVerifiedAt: string | null
 }
