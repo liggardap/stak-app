@@ -35,8 +35,7 @@
         {
           "faceIDPermission": "Allow Stak to access your Face ID biometric data."
         }
-      ],
-      "react-native-reanimated"
+      ]
     ],
     "experiments": {
       "typedRoutes": true
