@@ -16,6 +16,9 @@ ios/
 .DS_Store
 *.pem
 
+# editor
+.vscode/
+
 # env
 .env
 .env.local

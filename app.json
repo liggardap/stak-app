@@ -8,6 +8,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -22,7 +25,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#0d9488"
       },
-      "package": "com.liggardap.stakapp"
+      "package": "com.liggardap.stakapp",
+      "softwareKeyboardLayoutMode": "pan"
     },
     "plugins": [
       "expo-router",
@@ -31,7 +35,8 @@
         {
           "faceIDPermission": "Allow Stak to access your Face ID biometric data."
         }
-      ]
+      ],
+      "react-native-reanimated"
     ],
     "experiments": {
       "typedRoutes": true
