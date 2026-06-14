@@ -47,10 +47,10 @@ export default function LoginScreen() {
       <KeyboardAwareView>
         <View className="flex-1 px-6 pt-8 pb-6">
           {/* Heading */}
-          <Text className="text-2xl font-semibold text-foreground mb-1">
+          <Text className="text-2xl font-sans-semibold text-foreground mb-1">
             Welcome back
           </Text>
-          <Text className="text-sm text-muted-foreground mb-8">
+          <Text className="text-sm font-sans text-muted-foreground mb-8">
             Enter your details below.
           </Text>
 

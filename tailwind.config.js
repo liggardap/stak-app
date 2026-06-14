@@ -80,7 +80,10 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ['Inter', 'System'],
+        sans: ['Inter_400Regular', 'System'],
+        'sans-medium': ['Inter_500Medium', 'System'],
+        'sans-semibold': ['Inter_600SemiBold', 'System'],
+        'sans-bold': ['Inter_700Bold', 'System'],
       },
     },
   },

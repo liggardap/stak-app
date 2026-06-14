@@ -16,9 +16,9 @@ export function Button({ title, loading = false, variant = 'primary', disabled, 
   }[variant];
 
   const textStyle = {
-    primary: 'text-white font-semibold text-base',
-    outline: 'text-primary-foreground font-semibold text-base',
-    ghost: 'text-primary-foreground font-semibold text-base',
+    primary: 'text-white font-sans-semibold text-base',
+    outline: 'text-primary-foreground font-sans-semibold text-base',
+    ghost: 'text-primary-foreground font-sans-semibold text-base',
   }[variant];
 
   return (

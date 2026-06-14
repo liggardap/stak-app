@@ -10,21 +10,38 @@ interface InputProps extends TextInputProps {
 export function Input({ secure = false, error = false, style, ...props }: InputProps) {
   const [visible, setVisible] = useState(false);
 
-  const borderColor = error ? 'border-destructive-foreground' : 'border-border';
+  const borderColor = error ? '#dc2626' : '#e2e8f0';
 
   return (
-    <View className={`flex-row items-center border rounded-xl px-4 h-14 bg-background ${borderColor}`}>
+    <View
+      style={{
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderWidth: 1,
+        borderColor,
+        borderRadius: 12,
+        paddingHorizontal: 16,
+        backgroundColor: '#ffffff',
+        overflow: 'visible',
+      }}
+    >
       <TextInput
         {...props}
         secureTextEntry={secure && !visible}
-        className="flex-1 text-foreground text-base"
+        style={{
+          flex: 1,
+          fontSize: 16,
+          color: '#1e293b',
+          paddingTop: 14,
+          paddingBottom: 14,
+        }}
         placeholderTextColor="#64748b"
       />
       {secure && (
         <Pressable
           onPress={() => setVisible((v) => !v)}
           hitSlop={{ top: 12, bottom: 12, left: 12, right: 12 }}
-          className="ml-2"
+          style={{ marginLeft: 8 }}
         >
           {visible
             ? <IconEyeOff size={20} color="#64748b" />
