@@ -9,8 +9,15 @@ export const secureStore = {
   delete: (key: string) => SecureStore.deleteItemAsync(key),
 };
 
+// Async adapter — avoids SecureStore.getItem() sync issues on Android/Expo Go
 export const zustandStorage: StateStorage = {
-  getItem: (name) => SecureStore.getItem(name) ?? null,
-  setItem: (name, value) => SecureStore.setItem(name, value),
-  removeItem: (name) => SecureStore.deleteItemAsync(name),
+  getItem: async (name) => {
+    return await SecureStore.getItemAsync(name) ?? null;
+  },
+  setItem: async (name, value) => {
+    await SecureStore.setItemAsync(name, value);
+  },
+  removeItem: async (name) => {
+    await SecureStore.deleteItemAsync(name);
+  },
 };
