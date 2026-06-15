@@ -36,7 +36,8 @@
           "faceIDPermission": "Allow Stak to access your Face ID biometric data."
         }
       ],
-      "expo-font"
+      "expo-font",
+      "expo-localization"
     ],
     "experiments": {
       "typedRoutes": true
